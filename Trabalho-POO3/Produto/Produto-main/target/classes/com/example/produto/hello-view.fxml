@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="523.0" prefWidth="1225.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.produto.ProdutoController">
+   <children>
+      <HBox prefHeight="398.0" prefWidth="1199.0">
+         <children>
+            <VBox prefHeight="398.0" prefWidth="284.0">
+               <children>
+                  <GridPane>
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Label text="Codigo:">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="3.0" />
+                           </GridPane.margin>
+                        </Label>
+                        <TextField fx:id="txtCodigo" GridPane.rowIndex="1">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="3.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <Label text="Nome:" GridPane.rowIndex="2">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="3.0" />
+                           </GridPane.margin>
+                        </Label>
+                        <Label text="Descrição:" GridPane.rowIndex="4">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="3.0" />
+                           </GridPane.margin>
+                        </Label>
+                        <Label text="Data da Fabricação:" GridPane.rowIndex="6">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="3.0" />
+                           </GridPane.margin>
+                        </Label>
+                        <Label text="Data da Validade:" GridPane.rowIndex="8">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="3.0" />
+                           </GridPane.margin>
+                        </Label>
+                        <Label text="Preço da Compra:" GridPane.rowIndex="10">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="3.0" />
+                           </GridPane.margin>
+                        </Label>
+                        <Label text="Preço da Venda:" GridPane.rowIndex="12">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="3.0" />
+                           </GridPane.margin>
+                        </Label>
+                        <Label text="Quantidade no Estoque:" GridPane.rowIndex="14">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="3.0" />
+                           </GridPane.margin>
+                        </Label>
+                        <Label text="Categoria:" GridPane.rowIndex="16">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="3.0" />
+                           </GridPane.margin>
+                        </Label>
+                        <TextField fx:id="txtNome" GridPane.rowIndex="3">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="3.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txtDescricao" GridPane.rowIndex="5">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="3.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txtDataFabricacao" GridPane.rowIndex="7">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="3.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txtDataValidade" GridPane.rowIndex="9">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="3.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txtPrecoCompra" GridPane.rowIndex="11">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="3.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txtPrecoVenda" GridPane.rowIndex="13">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="3.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txtQuantidadeEstoque" GridPane.rowIndex="15">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="3.0" />
+                           </GridPane.margin>
+                        </TextField>
+                        <TextField fx:id="txtCategoria" GridPane.rowIndex="17">
+                           <GridPane.margin>
+                              <Insets left="5.0" right="3.0" />
+                           </GridPane.margin>
+                        </TextField>
+                     </children>
+                  </GridPane>
+               </children>
+            </VBox>
+            <VBox prefHeight="398.0" prefWidth="917.0">
+               <children>
+                  <TableView fx:id="tableView" prefHeight="398.0" prefWidth="830.0">
+                    <columns>
+                      <TableColumn fx:id="lblCodigo" prefWidth="158.0" text="Código" />
+                      <TableColumn fx:id="lblNome" prefWidth="149.0" text="Nome" />
+                        <TableColumn fx:id="lblDescricao" prefWidth="148.0" text="Descrição" />
+                        <TableColumn fx:id="lblDataFabricacao" prefWidth="88.0" text="Data de F." />
+                        <TableColumn fx:id="lblDataDeVencimento" prefWidth="83.0" text="Data de V." />
+                        <TableColumn fx:id="lblPrecoCompra" minWidth="1.0" prefWidth="63.0" text="Preço C." />
+                        <TableColumn fx:id="lblPrecoVenda" prefWidth="68.0" text="Preço V." />
+                        <TableColumn fx:id="lblQuantidade" prefWidth="55.0" text="Quantidade" />
+                        <TableColumn fx:id="lblCategoria" prefWidth="104.0" text="Categoria" />
+                    </columns>
+                  </TableView>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <HBox prefHeight="75.0" prefWidth="1155.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#adicionarProduto" prefWidth="75.0" text="Novo">
+               <HBox.margin>
+                  <Insets left="10.0" top="30.0" />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#excluirProduto" prefWidth="75.0" text="Excluir">
+               <HBox.margin>
+                  <Insets left="20.0" top="30.0" />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#consultarProduto" prefWidth="75.0" text="Consultar">
+               <HBox.margin>
+                  <Insets left="20.0" top="30.0" />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#listarTodos" prefWidth="75.0" text="Listar">
+               <HBox.margin>
+                  <Insets left="20.0" top="30.0" />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#filtrarProximosAVencer" prefWidth="75.0" text="Filtrar(60)">
+               <HBox.margin>
+                  <Insets left="20.0" top="30.0" />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#filtrarEstoqueMenorQue10" prefWidth="75.0" text="Filtrar(&lt;10)">
+               <HBox.margin>
+                  <Insets left="20.0" top="30.0" />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#calcularLucroPorCategoria" prefWidth="75.0" text="Lucro">
+               <HBox.margin>
+                  <Insets left="20.0" top="30.0" />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#listarPorCategoria" prefWidth="75.0" text="Listar Cat.">
+               <HBox.margin>
+                  <Insets left="20.0" top="30.0" />
+               </HBox.margin>
+            </Button>
+            <Label fx:id="lblMediaLucro" alignment="CENTER" prefHeight="82.0" prefWidth="244.0" style="-fx-background-color: blue;" text="Média: 0,00" textFill="WHITE">
+               <HBox.margin>
+                  <Insets left="30.0" top="10.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox prefHeight="49.0" prefWidth="1155.0" />
+   </children>
+</VBox>
